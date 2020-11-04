@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="73.343519">
+<testcase classname="Gmail Login Functionality" name="Login Successful" time="73.343519">
+<failure message="java.lang.AssertionError: &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;&#13;&#10;&#9;at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)&#13;&#10;&#9;at org.junit.Assert.assertThat(Assert.java:956)&#13;&#10;&#9;at org.junit.Assert.assertThat(Assert.java:923)&#13;&#10;&#9;at com.example.stepDefs.GooglePageStepDefs.i_should_see_create_account_link(GooglePageStepDefs.java:33)&#13;&#10;&#9;at ✽.Then I should see create account link(src/test/resources/features/Login.feature:7)&#13;&#10;"><![CDATA[Given I navigated to google page............................................passed
+When I click on SigIn button................................................passed
+Then I should see create account link.......................................failed
+
+StackTrace:
+java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.example.stepDefs.GooglePageStepDefs.i_should_see_create_account_link(GooglePageStepDefs.java:33)
+	at ✽.Then I should see create account link(src/test/resources/features/Login.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

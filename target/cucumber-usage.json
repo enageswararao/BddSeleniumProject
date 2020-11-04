@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^I click on SigIn button$",
+    "steps": [
+      {
+        "name": "I click on SigIn button",
+        "aggregatedDurations": {
+          "average": 18.9151456,
+          "median": 18.9151456
+        },
+        "durations": [
+          {
+            "duration": 18.9151456,
+            "location": "src/test/resources/features/Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigated to google page$",
+    "steps": [
+      {
+        "name": "I navigated to google page",
+        "aggregatedDurations": {
+          "average": 32.6424545,
+          "median": 32.6424545
+        },
+        "durations": [
+          {
+            "duration": 32.6424545,
+            "location": "src/test/resources/features/Login.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]
